@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/yourusername/cocobase-go/cocobase"
-	"github.com/yourusername/cocobase-go/storage"
+	"github.com/lordace-coder/cocobase-go/cocobase"
+	"github.com/lordace-coder/cocobase-go/storage"
 )
 
 func main() {
 	// Create client with persistent storage
 	store := storage.NewMemoryStorage()
-	
+
 	client := cocobase.NewClient(cocobase.Config{
 		APIKey:  "your-api-key",
 		Storage: store,

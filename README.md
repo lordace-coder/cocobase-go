@@ -18,7 +18,7 @@ A powerful Go client for the Cocobase Backend as a Service (BaaS).
 ## Installation
 
 ```bash
-go get github.com/yourusername/cocobase-go
+go get github.com/lordace-coder/cocobase-go
 ```
 
 ## Quick Start
@@ -31,7 +31,7 @@ import (
     "fmt"
     "log"
 
-    "github.com/yourusername/cocobase-go/cocobase"
+    "github.com/lordace-coder/cocobase-go/cocobase"
 )
 
 func main() {
@@ -158,7 +158,7 @@ defer conn.Close()
 ## Storage Persistence
 
 ```go
-import "github.com/yourusername/cocobase-go/storage"
+import "github.com/lordace-coder/cocobase-go/storage"
 
 // Memory storage
 store := storage.NewMemoryStorage()
@@ -175,20 +175,20 @@ client := cocobase.NewClient(cocobase.Config{
 
 ## Query Operators
 
-| Operator     | Usage                                  |
-| ------------ | -------------------------------------- |
-| `eq`         | Equals (default)                       |
-| `ne`         | Not equals                             |
-| `gt`         | Greater than                           |
-| `gte`        | Greater than or equal                  |
-| `lt`         | Less than                              |
-| `lte`        | Less than or equal                     |
-| `contains`   | Contains substring (case-insensitive)  |
-| `startswith` | Starts with                            |
-| `endswith`   | Ends with                              |
-| `in`         | In list (comma-separated)              |
-| `notin`      | Not in list                            |
-| `isnull`     | Is null/not null                       |
+| Operator     | Usage                                 |
+| ------------ | ------------------------------------- |
+| `eq`         | Equals (default)                      |
+| `ne`         | Not equals                            |
+| `gt`         | Greater than                          |
+| `gte`        | Greater than or equal                 |
+| `lt`         | Less than                             |
+| `lte`        | Less than or equal                    |
+| `contains`   | Contains substring (case-insensitive) |
+| `startswith` | Starts with                           |
+| `endswith`   | Ends with                             |
+| `in`         | In list (comma-separated)             |
+| `notin`      | Not in list                           |
+| `isnull`     | Is null/not null                      |
 
 ## Examples
 

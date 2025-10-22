@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yourusername/cocobase-go/cocobase"
+	"github.com/lordace-coder/cocobase-go/cocobase"
 )
 
 func main() {
